@@ -1,4 +1,4 @@
-# my-portfolio built with Gatsby
+# My Portfolio
 
 A portfolio using structured content and a static site builder.
 
