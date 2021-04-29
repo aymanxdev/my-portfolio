@@ -19,6 +19,8 @@ Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-i
    - Your frontend should be running on [http://localhost:8000](http://localhost:8000)
 4. `npm run build` to build to production locally
 
+There might be a warning to update npm packages - see developer github open issue
+
 ## Enable real-time content preview in development
 
 1. Go to your [project’s API settings on manage.sanity.io](https://manage.sanity.io/projects/3xlzfqkt/settings/api) and create a token with read rights.
@@ -26,6 +28,8 @@ Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-i
 3. Restart the development server (`ctrl + C` and `npm run dev`).
 
 If you want to disable the preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js.
+
+
 
 ## Deploy changes
 
