@@ -6,6 +6,8 @@ Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-i
 
 ## What you have
 
+
+
 - A blazing fast portfolio with [Gatsby.js](https://gatsbyjs.org)
 - Structured content using [Sanity.io](https://www.sanity.io)
 - Global deployment on [Netlify](https://netlify.com)
