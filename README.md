@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio - gatsby and sanity
 
 A portfolio using structured content and a static site builder.
 
