@@ -7,8 +7,9 @@
   height: 100%;
 }
 .hero-pic {
-  width: auto;
-  height: auto;
-  position: inherit;
-  background-image: url("../../public/images/ayman-pic.png");
+  position: absolute;
+  width: 478px;
+  height: 478px;
+  left: 851px;
+  top: 414px;
 }
