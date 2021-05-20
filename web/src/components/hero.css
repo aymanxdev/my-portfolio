@@ -1,23 +1,64 @@
 .container {
+  padding-top: 10%;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
 }
 
 .col-left {
   width: 50%;
+  padding-top: 6em;
+}
+.col-left h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 125.5%;
+  letter-spacing: -0.02em;
+  color: #0061a8;
+  border: 8px solid #f4f9fc;
+}
+.subtitle {
+  font-weight: normal;
+}
+.big-dot {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  color: #99f3bd;
+  border: 8px solid #f4f9fc;
 }
 .col-right {
   width: 50%;
+  place-content: start space-evenly;
+
+  float: right;
 }
 .dots-right-corner {
   position: absolute;
-  width: 284px;
-  height: 320px;
-  left: 1083px;
+  width: 200px;
+  height: 250px;
+  left: 1250px;
   top: 333px;
-  background-repeat: repeat;
   background-image: url("../../public/images/dots.png");
-  border: solid 4px red;
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+.dots-bottom-corner {
+  position: absolute;
+  width: 210px;
+  height: 178px;
+  left: 900px;
+  top: 600px;
+  background-image: url("../../public/images/left-corner-dots.png");
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+.main-photo {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  left: 900px;
+  top: 300px;
+  z-index: 1;
 }
