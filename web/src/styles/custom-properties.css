@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
 :root {
-  --font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-sans: -apple-system, Bitter, sans-serif;
 
   --color-black: #202123;
   --color-dark-gray: #32373e;
@@ -8,6 +10,7 @@
   --color-very-light-gray: #e7ebed;
   --color-white: #fff;
   --color-accent: #156dff;
+  --color-blueish-light: #f4f9fc;
 
   /* Typography */
   --unit: 16;

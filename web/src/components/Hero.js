@@ -11,8 +11,8 @@ const Hero = () => {
         </h1>
       </div>
       <div className="col-right">
-        <div className="hero-photo"></div>
-        <img className="hero-photo" src="./ayman-pic.png" alt="" />
+        <div className="hero-pattern"></div>
+        <img className="hero-photo" src="ayman-pic.png" alt="" />
       </div>
     </div>
   );
