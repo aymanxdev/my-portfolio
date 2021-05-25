@@ -4,7 +4,7 @@ import myImg from "../../public/images/ayman-pic.png";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container-hero">
       <div className="col-left">
         <h1>
           Hi! I’m Ayman
