@@ -15,7 +15,6 @@
   text-shadow: 0 0 2px #f4f9fc; /* horizontal-offset vertical-offset 'blur' colour */
   -moz-text-shadow: 0 0 2px #f4f9fc;
   -webkit-text-shadow: 0 0 2px #f4f9fc;
-  margin-bottom: 0%;
 }
 .sub-text {
   font-weight: normal;
@@ -34,8 +33,9 @@
   width: 20%;
   margin: 0px;
 }
-p {
+.container-about p {
   font-size: 1.5em;
+  margin-top: 10%;
 }
 .bg-dots-about {
   position: absolute;
@@ -79,8 +79,10 @@ p {
 .cv-btn:hover {
   background-image: url("../../public/images/dots.png");
   background-repeat: repeat;
+  cursor: pointer;
 }
 .github-btn:hover {
   background-image: url("../../public/images/dots.png");
   background-repeat: repeat;
+  cursor: pointer;
 }

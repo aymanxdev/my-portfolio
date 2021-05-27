@@ -1,3 +1,87 @@
 .container-skills {
   height: 100vh;
+  margin-bottom: 10%;
 }
+.sub-container-skills {
+  width: 1232px;
+  height: 642px;
+  background: #fff8f7;
+  border-radius: 20px;
+  z-index: -5;
+}
+.sub-container-skills::after {
+  content: " ";
+  background-image: url("../../public/images/pink-dots.png");
+  background-repeat: repeat;
+  position: absolute;
+  width: 157px;
+  height: 450px;
+  left: 250px;
+  top: 2200px;
+  z-index: -6;
+}
+.title-skill {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.035em;
+  color: #011963;
+  text-shadow: 0 0 2px #f4f9fc; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #f4f9fc;
+  -webkit-text-shadow: 0 0 2px #f4f9fc;
+  margin-bottom: 0%;
+}
+.sub-text-text {
+  font-weight: normal;
+}
+.big-dot-skills {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  color: #f67796;
+}
+.line-skills {
+  border-top: 5px solid #f67796;
+  align-content: left;
+  width: 120px;
+  margin: 0px;
+}
+.skill-title-container {
+  margin: 5%;
+  z-index: 4;
+}
+
+.tech-tools-container {
+  margin: 5%;
+}
+
+.tech-tools-container ul {
+  color: #474a57;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500px;
+}
+.tech-tools-container ul li::before {
+  content: " ";
+  color: #f67796;
+  border-radius: 100px;
+  font-weight: bold;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: -1em;
+  margin-right: 1em;
+  background-color: #f67796;
+}
+/* .bg-dots-skills {
+  position: relative;
+  background-image: url("../../public/images/pink-dots.png");
+  background-repeat: repeat;
+  position: absolute;
+  width: 157px;
+  height: 450px;
+  left: 250px;
+  top: 2200px;
+  z-index: -1;
+} */

@@ -1,0 +1,72 @@
+.container-contact {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.sub-container-contact {
+  width: 1232px;
+  height: 642px;
+  background: #fdfbfa;
+  border-radius: 60px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+.title-contact {
+  margin: 5%;
+  padding-top: 3em;
+  z-index: 4;
+}
+
+.title {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: -0.035em;
+  color: #47290c;
+  text-shadow: 0 0 2px #f4f9fc; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #f4f9fc;
+  -webkit-text-shadow: 0 0 2px #f4f9fc;
+  margin-bottom: 0%;
+}
+.big-dot-contact {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  color: #fe5708;
+}
+
+.contact-form-container {
+  margin: 5%;
+  padding-top: 1em;
+}
+.contact-btn {
+  border: 3px solid #fe5708;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 270px;
+  height: 55px;
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 5%;
+  background-image: url("../../public/images/orange-lines.png");
+  background-repeat: repeat;
+  background-color: rgb(244, 249, 252);
+  margin-right: 2%;
+}
+.btn-contact-text {
+  color: #fe5708 !important;
+  text-shadow: 5px 0 0 #f4f9fc, -2px 0 0 #f4f9fc, 0 2px 0 #f4f9fc, 0 -2px 0 #f4f9fc, 1px 1px #f4f9fc;
+}
+.contact-btn:hover {
+  background-color: #ffceb7;
+  cursor: pointer;
+}

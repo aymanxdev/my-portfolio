@@ -11,6 +11,7 @@ import ProjectPreviewGrid from "../components/project-preview-grid";
 import SEO from "../components/seo";
 import Layout from "../containers/layout";
 import Main from "../components/Main";
+import Contact from "../components/Contact";
 
 export const query = graphql`
   query IndexPageQuery {
@@ -97,6 +98,7 @@ const IndexPage = props => {
             browseMoreHref="/archive/"
           />
         )}
+        <Contact />
       </Container>
     </Layout>
   );

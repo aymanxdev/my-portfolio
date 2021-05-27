@@ -4,7 +4,22 @@ import "../components/skills.css";
 const Skills = () => {
   return (
     <div className="container-skills">
-      <div className="sub-container-skills"></div>
+      <div className="sub-container-skills">
+        <div className="skill-title-container">
+          <h1 className="title-skill">
+            My Skills - <span className="sub-text-text"> Technologies & Tools</span>
+            <span className="big-dot-skills">.</span>
+          </h1>
+          <hr className="line-skills" />
+        </div>
+        <div className="bg-dots-skills"></div>
+
+        <div className="tech-tools-container">
+          <ul>
+            <li>Python</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
