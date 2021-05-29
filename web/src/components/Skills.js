@@ -4,6 +4,7 @@ import "../components/skills.css";
 const Skills = () => {
   return (
     <div className="container-skills">
+      <div className="bg-dots-skills"></div>
       <div className="sub-container-skills">
         <div className="skill-title-container">
           <h1 className="title-skill">
@@ -12,7 +13,6 @@ const Skills = () => {
           </h1>
           <hr className="line-skills" />
         </div>
-        <div className="bg-dots-skills"></div>
 
         <div className="tech-tools-container">
           <ul>

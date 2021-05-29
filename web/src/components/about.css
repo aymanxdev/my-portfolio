@@ -77,12 +77,12 @@
 }
 
 .cv-btn:hover {
-  background-image: url("../../public/images/dots.png");
-  background-repeat: repeat;
+  background-image: none;
+  background-color: #dfffed;
   cursor: pointer;
 }
 .github-btn:hover {
-  background-image: url("../../public/images/dots.png");
-  background-repeat: repeat;
+  background-image: none;
+  background-color: #dfffed;
   cursor: pointer;
 }
