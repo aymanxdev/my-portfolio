@@ -17,6 +17,18 @@ const Skills = () => {
         <div className="tech-tools-container">
           <ul>
             <li>Python</li>
+            <li>JavaScript (ES6)</li>
+            <li>Reactjs</li>
+            <li>REST API</li>
+            <li>MongoDB</li>
+          </ul>
+          <ul>
+            <li>MySQL</li>
+            <li>Nodejs</li>
+            <li>Firebase</li>
+            <li>Git</li>
+            <li>HTML / CSS</li>
+            <li>Teamwork</li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,13 @@
+.side-bar-icons {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.side-bar-icons ul li {
+  font-size: 24px;
+  list-style: none;
+}
