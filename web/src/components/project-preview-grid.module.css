@@ -1,8 +1,9 @@
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
+@import "../styles/custom-media.css";
+@import "../styles/custom-properties.css";
 
 .root {
   margin: 2em 0 4em;
+  margin-bottom: 20%;
 }
 
 .headline {
@@ -32,9 +33,24 @@
 }
 
 .browseMoreNav {
-  composes: small from './typography.module.css';
-  margin-top: 1rem;
-  text-align: right;
+  composes: small from "./typography.module.css";
+  margin-top: 3rem;
+  text-align: center;
+  float: right;
+  border: 1px solid #0061a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 220px;
+  height: 55px;
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  margin-top: 5%;
+  background-image: url("../../public/images/lines.png");
+  background-repeat: repeat;
+  background-color: rgb(244, 249, 252);
 
   @nest & a {
     display: inline-block;
@@ -45,6 +61,9 @@
     @media (hover: hover) {
       @nest &:hover {
         color: var(--color-accent);
+        background-image: none;
+        background-color: #dfffed;
+        cursor: pointer;
       }
     }
   }

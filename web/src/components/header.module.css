@@ -9,7 +9,7 @@
 .wrapper {
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1300px;
   padding: 1em;
   display: flex;
 
@@ -46,7 +46,7 @@
   outline: none;
   color: inherit;
 
-  & svg {
+  &svg {
     display: block;
     fill: inherit;
   }

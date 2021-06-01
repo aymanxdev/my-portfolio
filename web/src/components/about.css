@@ -4,6 +4,9 @@
   height: 100vh;
   padding-top: 5%;
 }
+.container-about p::selection {
+  background-color: thistle;
+}
 
 .about-title {
   font-style: normal;
