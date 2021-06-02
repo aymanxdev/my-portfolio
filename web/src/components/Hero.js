@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <div className="container-hero">
       <div className="col-left">
-        <h1>
+        <h1 className="gradient-text">
           Hi! I’m Ayman
-          <span className="big-dot">.</span>
+          <span id="big-dot-hero">.</span>
           <br />
           <span className="subtitle">
             Software Engineer <br /> based in London

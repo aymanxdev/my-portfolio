@@ -13,7 +13,7 @@
 
   z-index: 2;
   box-shadow: 7px 7px 7px -7px rgba(0, 0, 0, 0.1);
-  border: 0.1px solid #fcc2a8;
+  border: 0.1px dashed #fe5708;
   padding: 15px;
   position: relative;
 }
@@ -32,7 +32,7 @@
   height: 7px;
   border-radius: 50%;
   background-color: #fe5708;
-  border: 1.5px solid #ad3903;
+  border: 1.5px solid #fe5708;
   position: absolute;
 }
 
@@ -83,7 +83,7 @@
   width: 80%;
 }
 .contact-btn {
-  border: 3px solid #fe5708;
+  border: 1px dashed #fe5708;
   box-sizing: border-box;
   border-radius: 8px;
   width: 270px;
