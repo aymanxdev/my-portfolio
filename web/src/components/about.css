@@ -107,6 +107,7 @@
   float: right;
   margin-left: 10%;
   margin-right: 0%;
+  border-radius: 3px;
 }
 .corner-about {
   width: 7px;
@@ -132,4 +133,31 @@
 #corner-about-bl {
   bottom: -5px;
   left: -5px;
+}
+
+/* Responsive code */
+
+@media screen and (max-width: 400px) {
+  .container-about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "left-col-about"
+      "righ-col-about";
+  }
+  .col-left {
+    margin: auto 0;
+    width: 100%;
+  }
+  .col-left h1 {
+    font-size: 16px;
+  }
+  .main-photo {
+    max-width: 280px;
+    height: auto;
+  }
+
+  #preview {
+    width: 280px;
+  }
 }
