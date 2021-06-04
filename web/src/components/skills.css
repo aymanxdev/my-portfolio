@@ -133,3 +133,29 @@
   top: 60px;
   z-index: 4;
 }
+
+/* Responsive code */
+
+@media screen and (max-width: 400px) {
+  .container-skills {
+    background-color: green;
+    width: 100vw;
+  }
+  .sub-container-skills {
+    width: 280px;
+  }
+  .tech-tools-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container-skill-shadow {
+    max-width: 280px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  #preview {
+    width: 280px;
+  }
+}

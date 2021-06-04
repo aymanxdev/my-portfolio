@@ -117,3 +117,23 @@
   top: 4200px;
   z-index: 1;
 }
+
+/* Responsive code */
+
+@media screen and (max-width: 400px) {
+  .container-contact {
+    background-color: purple;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sub-container-contact {
+    width: 280px;
+  }
+  .container-contact-shadow {
+    max-width: 280px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}

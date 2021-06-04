@@ -31,7 +31,6 @@
   font-weight: bold;
   font-size: 144px;
   color: #73bbc6;
-  border: 8px solid #f4f9fc;
 }
 
 .line {
@@ -141,23 +140,31 @@
   .container-about {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas:
-      "left-col-about"
-      "righ-col-about";
+    grid-template-areas: "righ-col-about", "left-col-about";
+    background-color: red;
+    width: 100vw;
+    margin-bottom: 30%;
   }
-  .col-left {
+  .left-col-about {
     margin: auto 0;
-    width: 100%;
   }
-  .col-left h1 {
+  .left-col-about p {
     font-size: 16px;
+    overflow: hidden;
   }
-  .main-photo {
+  .about-title {
+    font-size: 24px;
+  }
+  .about-photo {
     max-width: 280px;
     height: auto;
+    place-content: center;
+    place-items: center;
   }
-
-  #preview {
-    width: 280px;
+  .btns {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5%;
   }
 }

@@ -11,3 +11,9 @@
   font-size: 24px;
   list-style: none;
 }
+
+@media screen and (max-width: 400px) {
+  .side-bar-icons {
+    width: auto;
+  }
+}

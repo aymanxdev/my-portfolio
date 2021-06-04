@@ -154,10 +154,9 @@
 }
 
 @media screen and (max-width: 400px) {
-  .body {
-    width: 100%;
-  }
   .container-hero {
+    width: 100vw;
+    margin-bottom: 20%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -169,7 +168,7 @@
     width: 100%;
   }
   .col-left h1 {
-    font-size: 16px;
+    font-size: 24px;
   }
   .main-photo {
     max-width: 280px;
