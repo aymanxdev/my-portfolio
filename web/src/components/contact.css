@@ -122,17 +122,16 @@
 
 @media screen and (max-width: 400px) {
   .container-contact {
-    background-color: purple;
-    width: auto;
+    width: 80vw;
     display: grid;
     grid-template-columns: 1fr;
   }
   .sub-container-contact {
-    width: 280px;
+    width: 100%;
   }
   .container-contact-shadow {
     max-width: 280px;
-    height: 180px;
+    height: auto;
     padding-left: 10px;
     padding-top: 10px;
   }

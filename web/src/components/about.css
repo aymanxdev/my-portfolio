@@ -4,8 +4,9 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 100vh;
-  padding-top: 5%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  grid-template-areas: "left-col-about righ-col-about";
 }
 .container-about p::selection {
   background-color: thistle;
@@ -39,8 +40,8 @@
   width: 10%;
   margin: 0px;
 }
-.container-about p {
-  font-size: 1.5em;
+.sub-text-about {
+  font-size: 1em;
   margin-top: 10%;
 }
 .bg-dots-about {
@@ -55,7 +56,7 @@
 }
 .github-btn,
 .cv-btn {
-  border: 2px dashed #0f1b61;
+  border: 1px dashed #0f1b61;
   box-sizing: border-box;
   border-radius: 8px;
   width: 270px;
@@ -70,6 +71,15 @@
   background-repeat: repeat;
   background-color: rgb(244, 249, 252);
   margin-right: 2%;
+}
+.github-btn {
+  grid-area: github-btn;
+}
+.cv-btn {
+  grid-area: cv-btn;
+}
+.btns {
+  grid-template-areas: "github-btn cv-btn";
 }
 
 .btn-sub-text {
@@ -92,20 +102,23 @@
   background-color: #afdbe2;
   cursor: pointer;
 }
+.left-col-about {
+  display: grid;
+  align-content: center;
+  grid-area: left-col-about;
+}
 .righ-col-about {
-  padding: 15px;
-  width: 600px;
-  height: 450px;
+  display: grid;
+  width: 500px;
+  height: auto;
   position: relative;
   border: 1px dashed #73bbc6;
-  margin-left: 15%;
+  grid-area: righ-col-about;
+  padding: 15px;
 }
 .about-photo {
-  width: 600px;
+  width: 500px;
   height: auto;
-  float: right;
-  margin-left: 10%;
-  margin-right: 0%;
   border-radius: 3px;
 }
 .corner-about {
@@ -140,31 +153,52 @@
   .container-about {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "righ-col-about", "left-col-about";
-    background-color: red;
-    width: 100vw;
-    margin-bottom: 30%;
+    grid-template-areas:
+      "righ-col-about"
+      "left-col-about";
+    width: 80vw;
+    padding: 30px 0 30px 0;
   }
   .left-col-about {
+    overflow: none;
     margin: auto 0;
   }
-  .left-col-about p {
+  .left-col-about {
     font-size: 16px;
-    overflow: hidden;
   }
   .about-title {
     font-size: 24px;
   }
+  .righ-col-about {
+    max-width: 280px;
+    height: auto;
+    padding: 10px;
+  }
   .about-photo {
     max-width: 280px;
     height: auto;
-    place-content: center;
-    place-items: center;
   }
   .btns {
     display: grid;
-    align-content: center;
-    text-align: center;
+    align-self: center;
     margin-bottom: 5%;
+    grid-template-areas: "github-btn cv-btn";
+    font-size: 16px;
+  }
+  .github-btn,
+  .cv-btn {
+    font-size: 14px;
+    width: 150px;
+    height: 43px;
+  }
+  .sub-text-about {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .bg-dots-about {
+    top: 900px;
+    left: 10px;
+    height: 120px;
+    width: 180px;
   }
 }

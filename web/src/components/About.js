@@ -12,7 +12,7 @@ const About = () => {
         </h1>
         <div className="bg-dots-about"></div>
         <hr className="line" />
-        <p>
+        <p className="sub-text-about">
           I’m a graduate with a Master’s degree in Software Engineering and a Bachelor degree in
           Computer Science. I enjoy creating applications that allow me to combine my background in
           technolgoy and my interest in clean design
