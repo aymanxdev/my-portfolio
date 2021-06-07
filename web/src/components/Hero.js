@@ -16,8 +16,6 @@ const Hero = () => {
         </h1>
       </div>
       <div className="col-right">
-        <span className="dots-right-corner"></span>
-        <span className="dots-bottom-corner"></span>
         <img className="main-photo" src={myImg} />
       </div>
     </div>

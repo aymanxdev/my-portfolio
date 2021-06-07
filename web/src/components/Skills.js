@@ -4,7 +4,6 @@ import "../components/skills.css";
 const Skills = () => {
   return (
     <div className="container-skills">
-      <div className="bg-dots-skills"></div>
       <div className="container-skill-shadow">
         <div className="sub-container-skills">
           <div id="corner-tl" className="corner"></div>

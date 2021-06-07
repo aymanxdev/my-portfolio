@@ -4,7 +4,6 @@ import "../components/contact.css";
 const Contact = () => {
   return (
     <div className="container-contact">
-      <div className="bg-dots-contact"></div>
       <div className="container-contact-shadow">
         <div className="sub-container-contact">
           <div id="contact-corner-tl" className="contact-corner"></div>

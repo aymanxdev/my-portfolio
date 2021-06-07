@@ -10,7 +10,6 @@ const About = () => {
           A bit about me - <span className="sub-text"> values</span>
           <span className="big-dot">.</span>
         </h1>
-        <div className="bg-dots-about"></div>
         <hr className="line" />
         <p className="sub-text-about">
           I’m a graduate with a Master’s degree in Software Engineering and a Bachelor degree in

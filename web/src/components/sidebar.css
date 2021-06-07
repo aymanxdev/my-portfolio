@@ -1,7 +1,7 @@
 .side-bar-icons {
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 200;
   top: 200px;
   left: 10px;
   overflow-x: hidden;

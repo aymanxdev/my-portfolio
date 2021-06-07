@@ -4,8 +4,8 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   grid-template-areas: "left-col-about righ-col-about";
 }
 .container-about p::selection {
@@ -110,7 +110,7 @@
 .righ-col-about {
   display: grid;
   width: 500px;
-  height: auto;
+  height: 380px;
   position: relative;
   border: 1px dashed #73bbc6;
   grid-area: righ-col-about;
@@ -148,6 +148,14 @@
 }
 
 /* Responsive code */
+@media screen and (max-width: 1200px) {
+  .container-about {
+    grid-template-areas: "righ-col-about" "left-col-about";
+  }
+  .btns {
+    grid-template-areas: "github-btn" "cv-btn";
+  }
+}
 
 @media screen and (max-width: 400px) {
   .container-about {

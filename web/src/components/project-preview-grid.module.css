@@ -34,19 +34,17 @@
 
 .browseMoreNav {
   composes: small from "./typography.module.css";
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
-  float: right;
   box-sizing: border-box;
   border-radius: 5px;
-  width: 220px;
+  width: 180px;
   height: 55px;
   font-family: Bitter;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
-  margin-top: 5%;
   background-image: url("../../public/images/lines.png");
   background-repeat: repeat;
   background-color: rgb(244, 249, 252);
