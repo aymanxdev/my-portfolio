@@ -12,6 +12,17 @@
   list-style: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .side-bar-icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .side-bar-icons {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .side-bar-icons {
     display: none;

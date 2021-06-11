@@ -52,7 +52,7 @@
 
 .title-contact {
   margin: 5%;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 .title {
@@ -116,10 +116,14 @@
 
 /* Responsive code */
 
+@media screen and (max-width: 800px) {
+  .container-contact {
+    background-color: red;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .container-contact {
-    width: 100vw;
-    display: block;
     padding-top: 50px;
     padding-bottom: 50px;
   }

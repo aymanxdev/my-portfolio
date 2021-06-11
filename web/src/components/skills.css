@@ -112,7 +112,6 @@
 /* Responsive code */
 @media screen and (max-width: 1200px) {
   .container-skills {
-    background-color: purple;
   }
 }
 @media screen and (max-width: 400px) {
