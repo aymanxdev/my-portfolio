@@ -114,6 +114,14 @@
   .container-skills {
   }
 }
+@media screen and (max-width: 800px) {
+  .title-skill {
+    font-size: 38px;
+  }
+  .tech-tools-container ul {
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 400px) {
   .container-skills {
     width: 100vw;

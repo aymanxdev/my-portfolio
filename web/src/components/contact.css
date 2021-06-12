@@ -115,13 +115,19 @@
 }
 
 /* Responsive code */
-
 @media screen and (max-width: 800px) {
-  .container-contact {
-    background-color: red;
+  .title {
+    font-size: 38px;
+  }
+  .contact-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .sub-text-contact {
+    width: 100%;
   }
 }
-
 @media screen and (max-width: 400px) {
   .container-contact {
     padding-top: 50px;

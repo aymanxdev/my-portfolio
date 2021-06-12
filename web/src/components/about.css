@@ -161,32 +161,41 @@
 @media screen and (max-width: 1200px) {
   .container-about {
     display: flex;
-    flex-direction: center;
+    flex-direction: column-reverse;
+    align-content: center;
   }
-  .btns {
-    width: 100%;
-    align-self: center;
-    grid-template-areas: "github-btn cv-btn";
-  }
-  .github-btn,
-  .cv-btn {
-    font-size: 18px;
-    width: 200px;
-    height: 50px;
-  }
-  .right-col-about {
-    max-width: 1200px;
-    padding: 10px;
+
+  .righ-col-about {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    height: 453px;
   }
   .left-col-about {
-    padding: 20px;
-    padding-top: 0;
+    text-align: left;
   }
   .left-col-about h1 {
     font-size: 38px;
   }
   .sub-text-about {
     padding-right: 50px;
+  }
+  .about-title::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    bottom: -620px;
+    height: 3px;
+    background: #73bbc6;
+    width: 50px;
+    transform-origin: left center;
+    animation: lineIn 0.25s cubic-bezier(0.45, 0.85, 0.35, 0.85) 0.3s both;
+  }
+  .sub-text-about {
+    margin: 50px 20px 30px 0px;
+  }
+  .about-photo {
+    width: 600px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -196,19 +205,19 @@
     align-content: center;
   }
   .left-col-about {
-    text-align: center;
+    text-align: left;
   }
   .righ-col-about {
     margin: 0 auto;
     text-align: center;
   }
   .sub-text-about {
-    margin: 50px 20px 30px 20px;
+    margin: 50px 20px 30px 0px;
   }
   .about-title::before {
     content: "";
     position: absolute;
-    left: 180px;
+    left: 50px;
     bottom: -840px;
     height: 3px;
     background: #73bbc6;

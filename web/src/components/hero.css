@@ -132,7 +132,17 @@
 @media screen and (max-width: 1200px) {
   .container-hero {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
+    background-color: burlywood;
+  }
+  .col-left h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .col-right {
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
