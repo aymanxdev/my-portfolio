@@ -22,24 +22,13 @@
   color: #0f1b61;
 }
 
-.about-title::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -23px;
-  height: 3px;
-  background: black;
-  width: 50px;
-  transform-origin: left center;
-  animation: lineIn 0.25s cubic-bezier(0.45, 0.85, 0.35, 0.85) 0.3s both;
-}
 .sub-text {
   font-weight: normal;
 }
 .big-dot {
   font-style: normal;
   font-weight: bold;
-  font-size: 144px;
+  font-size: 38px;
   color: #73bbc6;
 }
 
@@ -174,23 +163,13 @@
   .left-col-about {
     text-align: left;
   }
-  .left-col-about h1 {
+  .about-title {
     font-size: 38px;
   }
   .sub-text-about {
     padding-right: 50px;
   }
-  .about-title::before {
-    content: "";
-    position: absolute;
-    left: 30px;
-    bottom: -620px;
-    height: 3px;
-    background: #73bbc6;
-    width: 50px;
-    transform-origin: left center;
-    animation: lineIn 0.25s cubic-bezier(0.45, 0.85, 0.35, 0.85) 0.3s both;
-  }
+
   .sub-text-about {
     margin: 50px 20px 30px 0px;
   }
@@ -214,38 +193,28 @@
   .sub-text-about {
     margin: 50px 20px 30px 0px;
   }
-  .about-title::before {
-    content: "";
-    position: absolute;
-    left: 50px;
-    bottom: -840px;
-    height: 3px;
-    background: #73bbc6;
-    width: 50px;
-    transform-origin: left center;
-    animation: lineIn 0.25s cubic-bezier(0.45, 0.85, 0.35, 0.85) 0.3s both;
-  }
 }
 
 @media screen and (max-width: 400px) {
   .container-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "righ-col-about"
-      "left-col-about";
-    width: 80vw;
-    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
   }
   .left-col-about {
-    overflow: none;
-    margin: auto 0;
+    text-align: left;
+  }
+  .righ-col-about {
+    margin: 0 auto;
+    text-align: center;
   }
   .left-col-about {
-    font-size: 16px;
+    padding-right: 20px;
+    margin: 0 auto;
   }
+
   .about-title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .righ-col-about {
     max-width: 280px;
@@ -259,7 +228,6 @@
   .btns {
     display: grid;
     align-self: center;
-    margin-bottom: 5%;
     grid-template-areas: "github-btn cv-btn";
     font-size: 16px;
   }
@@ -269,14 +237,11 @@
     width: 150px;
     height: 43px;
   }
+
   .sub-text-about {
-    font-size: 16px;
+    margin-top: 0;
+    font-size: 1rem !important;
     text-align: justify;
-  }
-  .bg-dots-about {
-    top: 900px;
-    left: 10px;
-    height: 120px;
-    width: 180px;
+    width: 90%;
   }
 }
