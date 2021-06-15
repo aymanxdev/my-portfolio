@@ -14,16 +14,14 @@
   grid-area: col-left;
 }
 .col-left h1 {
-  font-style: normal;
   font-weight: bold;
-  font-size: 60px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  color: #0061a8;
-  border: 8px solid #f4f9fc;
 }
 .subtitle {
   font-weight: normal;
+  font-size: 3rem;
+  line-height: 0;
 }
 #big-dot-hero {
   font-style: normal;
@@ -67,6 +65,7 @@
 }
 
 .gradient-text {
+  font-size: 4rem;
   margin-bottom: 10px;
   /* Fallback: Set a background color. */
   background-color: #0061a8;
@@ -77,8 +76,8 @@
     #0f1b61 16.666%,
     #374594 16.666%,
     #071044 33.333%,
-    #73bbc6 16.333%,
-    #69a4ad 16%
+    #0f1b61 16.333%,
+    #374594 16%
   );
 
   /* Set the background size and repeat properties. */
@@ -166,10 +165,16 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    padding-bottom: 50px;
   }
   .col-left h1 {
     text-align: center;
     font-size: 2rem;
+  }
+  .subtitle {
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1;
   }
   .col-right {
     margin: 0 auto;

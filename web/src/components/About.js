@@ -4,7 +4,7 @@ import MSAyman from "../../public/images/Microsoft-hackathon.jpeg";
 
 const About = () => {
   return (
-    <div className="container-about">
+    <div className="container-about" id="about">
       <div className="left-col-about">
         <h1 className="about-title">
           A bit about me - <span className="sub-text"> values</span>

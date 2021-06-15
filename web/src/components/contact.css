@@ -134,7 +134,7 @@
     padding-bottom: 50px;
   }
   .sub-container-contact {
-    width: 280px;
+    max-width: 350px;
   }
   .container-contact-shadow {
     max-width: 280px;
