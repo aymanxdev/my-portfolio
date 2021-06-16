@@ -131,10 +131,12 @@
 @media screen and (max-width: 400px) {
   .container-contact {
     padding-top: 50px;
+    width: 100vw;
+    display: block;
     padding-bottom: 50px;
   }
   .sub-container-contact {
-    max-width: 350px;
+    width: 300px;
   }
   .container-contact-shadow {
     max-width: 280px;

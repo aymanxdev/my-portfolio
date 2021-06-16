@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: red;
+  overflow: hidden;
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+  z-index: 3000;
+}
