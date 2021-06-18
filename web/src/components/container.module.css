@@ -5,6 +5,7 @@
   max-width: 1200px;
   padding: 1.5em;
   margin: 0 auto;
+  overflow: hidden;
 
   @media (--media-min-small) {
     padding: 2em;

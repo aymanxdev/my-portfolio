@@ -6,7 +6,7 @@ import { FaMedium } from "react-icons/fa";
 const BottomNav = () => {
   return (
     <div class="wrapper">
-      <div className="btm-nav-icons">
+      <nav className="btm-nav-icons">
         <ul>
           <li>
             {" "}
@@ -21,7 +21,7 @@ const BottomNav = () => {
             <FaMedium />
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 };
