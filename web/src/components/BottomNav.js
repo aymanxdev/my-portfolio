@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+
 import "../components/btmNav.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -9,16 +11,19 @@ const BottomNav = () => {
       <nav className="btm-nav-icons">
         <ul>
           <li>
-            {" "}
-            <FaGithub />{" "}
+            <Link to={"https://github.com/aymanxdev"}>
+              <FaGithub className="github-icon" />
+            </Link>
           </li>
           <li>
-            {" "}
-            <FaLinkedin />{" "}
+            <Link to={"https://www.linkedin.com/in/ayman-io/"}>
+              <FaLinkedin className="li-icon" />
+            </Link>
           </li>
           <li>
-            {" "}
-            <FaMedium />
+            <Link to={"https://aymanx.medium.com/"}>
+              <FaMedium className="m-icon" />
+            </Link>
           </li>
         </ul>
       </nav>
