@@ -13,7 +13,7 @@ const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with <a href="https://www.sanity.io">Sanity</a> &amp;
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby </a> and Tea ☕️ ❤️
         </div>
       </div>
     </footer>

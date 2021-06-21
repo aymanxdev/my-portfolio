@@ -170,17 +170,18 @@
   .col-left h1 {
     text-align: center;
     font-size: 2rem;
+    line-height: 120%;
   }
   .subtitle {
     font-weight: normal;
-    font-size: 2rem;
-    line-height: 1;
+    font-size: 1.8rem;
+    line-height: 100%;
   }
   .col-right {
     margin: 0 auto;
     text-align: center;
   }
   .main-photo {
-    width: 250px;
+    width: 200px;
   }
 }

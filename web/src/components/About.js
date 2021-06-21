@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "gatsby";
 import "../components/about.css";
 import MSAyman from "../../public/images/Microsoft-hackathon.jpeg";
-
+import PDFfile from "../../public/images/Ayman_CV_2021.pdf";
 const About = () => {
   return (
     <div className="container-about" id="about">
@@ -17,16 +18,21 @@ const About = () => {
           technolgoy and my interest in clean design
         </p>
         <div className="btns">
-          <button className="github-btn">
-            <span className="btn-main-text">
-              Checkout My <span className="btn-sub-text">GitHub</span>
-            </span>
-          </button>
-          <button className="cv-btn">
-            <span className="btn-main-text">
-              Download my <span className="btn-sub-text">CV</span>
-            </span>
-          </button>
+          <Link to={"https://github.com/aymanxdev"}>
+            <button className="github-btn">
+              <span className="btn-main-text">
+                Checkout My <span className="btn-sub-text">GitHub</span>
+              </span>
+            </button>
+          </Link>
+
+          <a href={PDFfile} target="_blank" download="Ayman_CV_2021.pdf">
+            <button className="cv-btn">
+              <span className="btn-main-text">
+                Download my <span className="btn-sub-text">CV</span>
+              </span>
+            </button>
+          </a>
         </div>
       </div>
 

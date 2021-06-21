@@ -10,6 +10,7 @@
 .side-bar-icons ul li {
   font-size: 24px;
   list-style: none;
+  color: #26272c;
 }
 
 @media screen and (max-width: 1200px) {
