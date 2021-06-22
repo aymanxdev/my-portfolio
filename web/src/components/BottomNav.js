@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import "../components/btmNav.css";
 import { FaGithub } from "react-icons/fa";
@@ -11,19 +10,19 @@ const BottomNav = () => {
       <nav className="btm-nav-icons">
         <ul>
           <li>
-            <Link to={"https://github.com/aymanxdev"}>
+            <a href={"https://github.com/aymanxdev"}>
               <FaGithub className="github-icon" />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to={"https://www.linkedin.com/in/ayman-io/"}>
+            <a href={"https://www.linkedin.com/in/ayman-io/"}>
               <FaLinkedin className="li-icon" />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to={"https://aymanx.medium.com/"}>
+            <a href={"https://aymanx.medium.com/"}>
               <FaMedium className="m-icon" />
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
