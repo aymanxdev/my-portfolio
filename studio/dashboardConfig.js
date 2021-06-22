@@ -26,7 +26,7 @@ export default {
                 {
                   buildHookId: "607a35ad007437421c6d2397",
                   title: "Portfolio Website",
-                  name: "my-portfolio-web-hb6rzt7n",
+                  name: "aymanio",
                   apiId: "cc47c1f2-6291-4290-bcba-6f21c1874977"
                 }
               ]
