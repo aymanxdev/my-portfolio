@@ -42,7 +42,7 @@
   height: 250px;
   left: 1250px;
   top: 333px;
-  background-image: url("../../public/images/dots.png");
+  background-image: url("../assets/images/dots.png");
   background-repeat: repeat;
   opacity: 0.2;
   z-index: 1;
@@ -53,7 +53,7 @@
   height: 178px;
   left: 900px;
   top: 600px;
-  background-image: url("../../public/images/left-corner-dots.png");
+  background-image: url("../assets/images/left-corner-dots.png");
   background-repeat: repeat;
   opacity: 0.2;
   z-index: 1;

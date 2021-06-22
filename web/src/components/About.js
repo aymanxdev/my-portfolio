@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import "../components/about.css";
-import MSAyman from "../../public/images/Microsoft-hackathon.jpeg";
-import PDFfile from "../../public/images/Ayman_CV_2021.pdf";
+import MSAyman from "../assets/images/Microsoft-hackathon.jpeg";
+import PDFfile from "../assets/images/Ayman_CV_2021.pdf";
 const About = () => {
   return (
     <div className="container-about" id="about">
@@ -41,7 +41,7 @@ const About = () => {
         <div id="corner-about-tr" className="corner-about"></div>
         <div id="corner-about-bl" className="corner-about"></div>
         <div id="corner-about-br" className="corner-about"></div>
-        <img className="about-photo" src={MSAyman} />
+        <img className="about-photo" src={MSAyman} alt="Microsoft Hackthon" />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/hero.css";
-import myImg from "../../public/images/ayman-pic.png";
+import myImg from "../assets/images/ayman-pic.png";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="col-right">
-        <img className="main-photo" src={myImg} />
+        <img className="main-photo" src={myImg} alt=" photo" />
       </div>
     </div>
   );
