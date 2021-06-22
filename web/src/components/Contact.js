@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/contact.css";
+import { FaCircle } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -13,12 +14,13 @@ const Contact = () => {
 
           <div className="title-contact">
             <h1 className="title">
-              Get in Touch <span className="big-dot-contact">.</span>
+              Get in Touch{" "}
+              <span className="big-dot-contact">
+                <FaCircle />
+              </span>
             </h1>
             <p className="sub-text-contact">
-              I’m a graduate with a Master’s degree in Software Engineering and a Bachelor degree in
-              Computer Science. I enjoy creating applications that allow me to combine my background
-              in technolgoy and my interest in clean design
+              I love to chat so please say get in touch via email or connect with me on LinkedIn.
             </p>
             <button className="contact-btn">
               <span className="btn-contact-text">Say Hello</span>{" "}

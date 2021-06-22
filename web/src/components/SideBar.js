@@ -2,7 +2,6 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
-import { Link } from "gatsby";
 
 import "./sidebar.css";
 

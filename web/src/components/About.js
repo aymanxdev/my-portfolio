@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
+import { FaCircle } from "react-icons/fa";
+
 import "../components/about.css";
 import MSAyman from "../assets/images/Microsoft-hackathon.jpeg";
 import PDFfile from "../assets/images/Ayman_CV_2021.pdf";
@@ -8,8 +10,11 @@ const About = () => {
     <div className="container-about" id="about">
       <div className="left-col-about">
         <h1 className="about-title">
-          A bit about me - <span className="sub-text"> values</span>
-          <span className="big-dot">.</span>
+          A bit about me - <span className="sub-text"> values </span>
+          <span className="big-dot">
+            {" "}
+            <FaCircle />
+          </span>
         </h1>
         <hr className="line" />
         <p className="sub-text-about">
