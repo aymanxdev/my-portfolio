@@ -140,13 +140,16 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .tech-tools-container {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .sub-container-skills {
+    width: auto;
+    height: auto;
+  }
   .container-skill-shadow {
-    max-width: 280px;
     height: auto;
     padding-left: 10px;
     padding-top: 10px;

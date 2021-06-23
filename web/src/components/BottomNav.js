@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../components/btmNav.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

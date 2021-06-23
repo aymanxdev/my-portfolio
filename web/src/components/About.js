@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
 import { FaCircle } from "react-icons/fa";
-
 import "../components/about.css";
 import MSAyman from "../assets/images/Microsoft-hackathon.jpeg";
 import PDFfile from "../assets/images/Ayman_CV_2021.pdf";
@@ -16,20 +14,23 @@ const About = () => {
             <FaCircle />
           </span>
         </h1>
-        <hr className="line" />
+
         <p className="sub-text-about">
-          I’m a graduate with a Master’s degree in Software Engineering and a Bachelor degree in
-          Computer Science. I enjoy creating applications that allow me to combine my background in
-          technolgoy and my interest in clean design
+          I have completed Master Degree in Advanced Manufacturing and Software Engineering in
+          January, 2021, and a Bachelor degree in Computer Science. As I've grown as a software
+          engineer, I've worked alongside senior designers and developers who have raised my
+          standards for whats expected of any web application. Through these experiences, I've been
+          able to design memorable products that are not only fun to use but also written in
+          maintainable and understandable code.
         </p>
         <div className="btns">
-          <Link to={"https://github.com/aymanxdev"}>
+          <a href={"https://github.com/aymanxdev"}>
             <button className="github-btn">
               <span className="btn-main-text">
                 Checkout My <span className="btn-sub-text">GitHub</span>
               </span>
             </button>
-          </Link>
+          </a>
 
           <a href={PDFfile} target="_blank" download="Ayman_CV_2021.pdf">
             <button className="cv-btn">

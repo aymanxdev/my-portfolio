@@ -1,6 +1,6 @@
 .wrapper {
   display: none;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.993);
   overflow: hidden;
   position: fixed;
   bottom: 0px;
@@ -38,8 +38,18 @@
   color: #e7bd00;
   cursor: pointer;
 }
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    display: inline;
+  }
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    display: inline;
+  }
+}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .wrapper {
     display: inline;
   }

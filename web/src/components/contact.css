@@ -128,18 +128,18 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .container-contact {
     padding-top: 50px;
-    width: 100vw;
     display: block;
     padding-bottom: 50px;
   }
   .sub-container-contact {
-    width: 300px;
+    width: auto;
+    height: 400px;
   }
   .container-contact-shadow {
-    max-width: 280px;
+    width: auto;
     height: auto;
     padding-left: 10px;
     padding-top: 10px;
