@@ -13,6 +13,7 @@ function ProjectPreview(props) {
       <div className={styles.leadMediaThumb}>
         {props.mainImage && props.mainImage.asset && (
           <img
+            className={styles.thumbImg}
             src={imageUrlFor(buildImageObj(props.mainImage))
               .width(600)
               .height(Math.floor((9 / 16) * 600))
@@ -27,6 +28,7 @@ function ProjectPreview(props) {
           <BlockText blocks={props._rawExcerpt} />
         </div>
       )}
+      <h4 className={styles.viewBtn}>View Project</h4>
     </Link>
   );
 }

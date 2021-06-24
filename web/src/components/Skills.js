@@ -30,18 +30,19 @@ const Skills = () => {
               <li>NodeJS</li>
               <li>Gatsby</li>
               <li>Git</li>
+              <li>MongoDB</li>
               <li>VSCode & PyCharm</li>
               <li>HTML5 / CSS / SASS</li>
-              <li>MongoDB & Mongoose</li>
             </ul>
             <ul>
               <li>Teamwork</li>
               <li>Networking</li>
+              <li> Communication</li>
               <li>Time Management</li>
-
+              <li>Agile Methodology</li>
               <li>Problem Solving</li>
               <li>Creative Thinking</li>
-              <li>Clear Communication</li>
+
               <li>Positive Attitude</li>
               <li>Analytical Thinking</li>
               <li>Leadership & Honesty</li>

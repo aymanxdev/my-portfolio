@@ -97,7 +97,7 @@
 }
 .btn-contact-text {
   color: #fe5708 !important;
-  text-shadow: 5px 0 0 #f4f9fc, -2px 0 0 #f4f9fc, 0 2px 0 #f4f9fc, 0 -2px 0 #f4f9fc, 1px 1px #f4f9fc;
+  text-shadow: 2px 0 0 #f4f9fc;
 }
 .contact-btn:hover {
   background-color: #ffceb7;
@@ -112,6 +112,24 @@
   left: 250px;
   top: 3000px;
   z-index: 2;
+}
+.contact-email {
+  color: #fe5708;
+  text-decoration: none;
+  cursor: pointer;
+} /* visited link */
+.contact-email:visited {
+  color: #979695;
+}
+
+/* mouse over link */
+.contact-email:hover {
+  color: #e49977;
+}
+
+/* selected link */
+.contact-email:active {
+  color: #47290c;
 }
 
 /* Responsive code */

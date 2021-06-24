@@ -14,17 +14,23 @@ const Contact = () => {
 
           <div className="title-contact">
             <h1 className="title">
-              Get in Touch{" "}
+              Let's Build Together{" "}
               <span className="big-dot-contact">
                 <FaCircle />
               </span>
             </h1>
             <p className="sub-text-contact">
-              I love to chat so please say get in touch via email or connect with me on LinkedIn.
+              I love to chat and meeting people so please feel free to reach out if you're looking
+              for a developer, have a question, or just want to connect.
             </p>
-            <button className="contact-btn">
-              <span className="btn-contact-text">Say Hello</span>{" "}
-            </button>
+            <a href="mailto: contact@aymanx.io?subject=👋 Hi Ayman" className="contact-email">
+              <h4>contact@aymanx.io</h4>
+            </a>
+            <a href="mailto: contact@aymanx.io?subject=👋 Hi Ayman">
+              <button className="contact-btn">
+                <span className="btn-contact-text">Say Hello</span>{" "}
+              </button>
+            </a>
           </div>
         </div>
       </div>

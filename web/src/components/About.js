@@ -21,7 +21,9 @@ const About = () => {
           engineer, I've worked alongside senior designers and developers who have raised my
           standards for whats expected of any web application. Through these experiences, I've been
           able to design memorable products that are not only fun to use but also written in
-          maintainable and understandable code.
+          maintainable and understandable code. Coding is my passion and gives me immerse
+          satisfaction when achieving every tiny bit. I also enjoy listenig to music, going out for
+          picnics, photogrphy and design.
         </p>
         <div className="btns">
           <a href={"https://github.com/aymanxdev"}>

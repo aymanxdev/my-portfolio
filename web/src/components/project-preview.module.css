@@ -5,9 +5,8 @@
 }
 
 .title {
-  composes: responsiveTitle1 from './typography.module.css';
+  composes: responsiveTitle1 from "./typography.module.css";
 }
-
 .leadMediaThumb {
   position: relative;
   padding-bottom: 66.666%;
@@ -27,10 +26,33 @@
   @media (hover: hover) {
     @nest .root:hover & {
       text-decoration: underline;
+      color: #0d1961;
     }
   }
 }
-
+.viewBtn {
+  @media (hover: hover) {
+    @nest .root:hover & {
+      text-decoration: underline;
+      color: #73bbc6;
+      cursor: pointer;
+    }
+  }
+}
+.thumbImg {
+  transition-duration: 0.3;
+  transition: transform 0.2s;
+}
+.thumbImg {
+  @media (hover: hover) {
+    @nest .root:hover & {
+      transition-duration: 0.3;
+      -ms-transform: scale(1.04); /* IE 9 */
+      -webkit-transform: scale(1.04); /* Safari 3-8 */
+      transform: scale(1.04);
+    }
+  }
+}
 .excerpt {
   @nest & p {
     margin: 0.5em 0;
