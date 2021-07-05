@@ -16,14 +16,7 @@ const About = () => {
         </h1>
 
         <p className="sub-text-about">
-          I have completed Master Degree in Advanced Manufacturing and Software Engineering in
-          January, 2021, and a Bachelor degree in Computer Science. As I've grown as a software
-          engineer, I've worked alongside senior designers and developers who have raised my
-          standards for whats expected of any web application. Through these experiences, I've been
-          able to design memorable products that are not only fun to use but also written in
-          maintainable and understandable code. Coding is my passion and gives me immerse
-          satisfaction when achieving every tiny bit. I also enjoy listenig to music, going out for
-          picnics, photogrphy and design.
+        I have completed my Master Degree in Advanced Manufacturing and Software Engineering in January 2021 and a Bachelor degree in Computer Science. As I've grown as a software engineer, I've worked alongside senior designers and developers who have raised my standards for what's expected of any web application. Through these experiences, I've been able to design memorable products that are not only fun to use but also written in maintainable and understandable code. Coding is my passion and gives me immense satisfaction when achieving every tiny bit. I also enjoy listening to music, going out for picnics, photography and design.
         </p>
         <div className="btns">
           <a href={"https://github.com/aymanxdev"}>
