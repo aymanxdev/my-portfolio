@@ -27,7 +27,7 @@ const About = () => {
             </button>
           </a>
 
-          <a href={PDFfile} target="_blank" download="Ayman_CV_2021.pdf">
+          <a href={PDFfile} target="_blank" download="Ayman_CV.pdf">
             <button className="cv-btn">
               <span className="btn-main-text">
                 Download my <span className="btn-sub-text">CV</span>
