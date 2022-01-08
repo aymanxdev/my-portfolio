@@ -2,7 +2,7 @@ import React from "react";
 import { FaCircle } from "react-icons/fa";
 import "../components/about.css";
 import MSAyman from "../assets/images/Microsoft-hackathon.jpeg";
-import PDFfile from "../assets/images/Ayman_CV_2021.pdf";
+import PDFfile from "../assets/images/Ayman_CV.pdf";
 const About = () => {
   return (
     <div className="container-about" id="about">
