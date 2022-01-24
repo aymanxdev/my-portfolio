@@ -1,7 +1,7 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaMedium } from "react-icons/fa";
+import { FaGithub, FaMedium, FaLinkedin, FaFilePdf } from "react-icons/fa";
+import PDFfile from "../assets/images/Ayman_CV.pdf";
+
 
 import "./sidebar.css";
 
@@ -20,10 +20,15 @@ const SideBar = () => {
           </a>
         </li>
         <li>
-          <a to={"https://aymanx.medium.com/"}>
+          <a href={"https://aymanx.medium.com/"}>
             <FaMedium className="m-icon" />
           </a>
         </li>
+        <li>
+            <a href={PDFfile} target="_blank" download="Ayman_CV.pdf">
+              <FaFilePdf className="pdf-icon" />
+            </a>
+          </li>
       </ul>
     </div>
   );

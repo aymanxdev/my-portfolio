@@ -22,7 +22,8 @@
 }
 .github-icon,
 .li-icon,
-.m-icon {
+.m-icon,
+.pdf-icon {
   color: rgb(134, 134, 134);
 }
 
@@ -36,6 +37,10 @@
 }
 .github-icon:hover {
   color: #211f1f;
+  cursor: pointer;
+}
+.pdf-icon:hover {
+  color: #cb2127;
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
