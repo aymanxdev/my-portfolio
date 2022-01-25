@@ -24,28 +24,28 @@ const Skills = () => {
           <div className="tech-tools-container">
             <ul>
               <li>JavaScript (ES6)</li>
-              <li>Python</li>
-              <li>React.JS</li>
+              <li>React.JS(Redux & Hooks)</li>
+              <li>Styled-Component</li>
+              <li>HTML5 / CSS / SASS</li>
               <li>REST API</li>
               <li>NodeJS</li>
-              <li>Gatsby</li>
               <li>Git</li>
               <li>MongoDB</li>
-              <li>VSCode & PyCharm</li>
-              <li>HTML5 / CSS / SASS</li>
+              <li>VSCode</li>
+              <li>Python</li>
+              
             </ul>
             <ul>
               <li>Teamwork</li>
               <li>Networking</li>
-              <li> Communication</li>
+              <li>Communication</li>
               <li>Time Management</li>
-              <li>Agile Methodology</li>
               <li>Problem Solving</li>
               <li>Creative Thinking</li>
-
               <li>Positive Attitude</li>
               <li>Analytical Thinking</li>
-              <li>Leadership & Honesty</li>
+              <li>Support & Honesty</li>
+              <li>Mindset of Learning & Curiosity</li>
             </ul>
           </div>
           <div className="big-circle"></div>
