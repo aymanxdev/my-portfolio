@@ -24,11 +24,7 @@ const SideBar = () => {
             <FaMedium className="m-icon" />
           </a>
         </li>
-        <li>
-            <a href={PDFfile} target="_blank" download="Ayman_CV.pdf">
-              <FaFilePdf className="pdf-icon" />
-            </a>
-          </li>
+ 
       </ul>
     </div>
   );

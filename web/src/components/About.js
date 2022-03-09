@@ -26,14 +26,14 @@ const About = () => {
               </span>
             </button>
           </a>
-
-          <a href={PDFfile} target="_blank" download="Ayman_CV.pdf">
+   
+          <Link to={props.browseMoreHref}>
             <button className="cv-btn">
               <span className="btn-main-text">
-                Download my <span className="btn-sub-text">CV</span>
+                Browse my <span className="btn-sub-text">projects</span>
               </span>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
 
