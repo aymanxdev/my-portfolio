@@ -28,7 +28,7 @@ const About = () => {
             </button>
           </a>
    
-          <Link to={props.browseMoreHref}>
+          <Link to="/archive">
             <button className="cv-btn">
               <span className="btn-main-text">
                 Browse my <span className="btn-sub-text">projects</span>
