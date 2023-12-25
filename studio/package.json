@@ -13,9 +13,6 @@
     "test": "sanity check",
     "start": "sanity start"
   },
-  "engines": {
-    "node": "16.13.1"
-  },
   "dependencies": {
     "@sanity/cli": "^3.18.1",
     "@sanity/components": "^2.1.0",
