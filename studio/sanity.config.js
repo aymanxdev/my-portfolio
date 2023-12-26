@@ -63,7 +63,7 @@ export default defineConfig({
   ],
   tools: prev => {
     // 👇 Uses environment variables set by Vite in development mode
-    // Using process dot env as vite env variables are not supported in Netlify
+    // Using process dot env as vite meta variables are not supported by Netlify
     if (process.env.NODE_ENV === "development") {
       return prev;
     }
