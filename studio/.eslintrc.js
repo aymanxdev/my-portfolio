@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['standard', 'standard-react'],
+  extends: ['standard', 'standard-react', 'sanity/react'],
   parser: 'babel-eslint',
   rules: {
     'react/prop-types': 0,
